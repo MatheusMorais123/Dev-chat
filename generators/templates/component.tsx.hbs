@@ -1,0 +1,13 @@
+import { S, {{pascalCase name}}Props } from '.';
+
+const {{pascalCase name}} = ({ example }: {{pascalCase name}}Props) => {
+  console.warn({ example });
+
+  return (
+    <S.Wrapper>
+      <h1>{{pascalCase name}} - {example}</h1>
+    </S.Wrapper>
+  );
+};
+
+export default {{pascalCase name}};
